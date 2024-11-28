@@ -7,7 +7,7 @@ This project demonstrates a streamlined pipeline for answering user queries from
 The entire project was executed on Google Colab using only free resources. After numerous iterations and experiments, I optimized the methods for compactness and efficiency. The final code is clean and concise after numerous iterations, highlighting the project's practicality and ease of use without relying on APIs or extensive internet access.
 
 ## Dataset links 🔗
-Alpaca Cleaned Dataset used for Instruction Finetuning - [[https://www.kaggle.com/competitions/llm-detect-ai-generated-text/data](https://huggingface.co/datasets/yahma/alpaca-cleaned)](https://huggingface.co/datasets/yahma/alpaca-cleaned)
+Alpaca Cleaned Dataset used for Instruction Finetuning - [(https://huggingface.co/datasets/yahma/alpaca-cleaned)](https://huggingface.co/datasets/yahma/alpaca-cleaned)
 
 
 ## About the data 📊
@@ -42,12 +42,6 @@ Dependencies:
 - unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
 - bitsandbytes==0.38.1
 
-## Setup ⚙️
-
-<img width="709" alt="Screenshot 2024-06-20 at 1 04 01 PM" src="https://github.com/Swadesh06/ARiES_PDF_Q-A/assets/129365476/b60247b8-c0fe-4380-a9d5-800b40dfaabe">
-
-
-
 ## Brief listing of techniques and tools used for the project 💡
 
 - Dataset used for training : Alpaca cleaned
@@ -68,8 +62,6 @@ Dependencies:
 - Saving the LoRA adapter of the model to later download it faster and with computational ease
 - Save the document database so that you don't have to create the database once again for the same document(s).
 
-## Documentation 📑
-- HLD : https://docs.google.com/document/d/1TSAjd81z32yjWSlfPjMyWigkMKMOzUjUYDxBR5RmJyI/edit?usp=sharing
 
 
 
